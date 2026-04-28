@@ -4,39 +4,39 @@ import { QuoteFormDialog } from "@/components/QuoteFormDialog"
 
 const pricingTiers = [
   {
-    name: "Базовый",
-    price: "99 900",
+    name: "Базовый курс",
+    price: "15 000",
     features: [
-      "До 5 страниц",
-      "Адаптивный дизайн",
-      "Базовая SEO-оптимизация",
-      "Форма обратной связи",
-      "1 месяц поддержки",
+      "Теоретическая подготовка",
+      "Практика на учебном стенде",
+      "Удостоверение по окончании",
+      "Длительность: 1 месяц",
+      "Группы до 10 человек",
     ],
     highlighted: false,
   },
   {
-    name: "Про",
-    price: "249 900",
+    name: "Профессиональный",
+    price: "35 000",
     features: [
-      "До 15 страниц",
-      "Премиум-дизайн",
-      "Расширенная SEO-оптимизация",
-      "Интеграция CMS",
-      "Функционал e-commerce",
-      "3 месяца поддержки",
+      "Углублённая теория и практика",
+      "Работа на реальных объектах",
+      "Гос. удостоверение + разряд",
+      "Длительность: 3 месяца",
+      "Помощь в трудоустройстве",
+      "Куратор на весь курс",
     ],
     highlighted: true,
   },
   {
-    name: "Индивидуальный",
+    name: "Корпоративный",
     price: "По запросу",
     features: [
-      "Неограниченно страниц",
-      "Кастомный функционал",
-      "API-интеграции",
+      "Обучение команды под заказ",
+      "Выезд инструктора на объект",
+      "Индивидуальная программа",
       "Персональный менеджер",
-      "6 месяцев поддержки",
+      "Документы для предприятия",
     ],
     highlighted: false,
   },
@@ -60,10 +60,10 @@ export function PricingSection() {
             Прозрачные цены
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
-            Выберите <span className="text-primary">идеальный тариф</span> для вашего проекта
+            Выберите <span className="text-primary">подходящую программу</span> обучения
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            От стартапов до крупного бизнеса — у нас есть подходящее решение
+            Для новичков, опытных специалистов и предприятий — у нас есть нужный формат
           </p>
         </div>
 
@@ -121,8 +121,8 @@ export function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            Все тарифы включают <span className="text-primary font-semibold">бесплатную настройку хостинга</span> и{" "}
-            <span className="text-primary font-semibold">SSL-сертификат</span>
+            Все программы включают <span className="text-primary font-semibold">бесплатную консультацию</span> и{" "}
+            <span className="text-primary font-semibold">официальные документы</span>
           </p>
         </div>
       </div>
